@@ -5,7 +5,7 @@ const buttons = document.querySelectorAll('.day-button');
 
 for (let i = 1; i <= 100; i++) {
   const button = document.createElement('button');
-  button.classList.add('day-button');o
+  button.classList.add('day-button');
 //   button.textContent = i;
 
   if (i === 100) {
